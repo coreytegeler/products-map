@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="assets/style.css" type="text/css"/>
+  </head>
+  <body>
+    
+    <div id="map" data-layer="satellite"></div>
+
+
+    <!-- <aside>
+      <form id="filters">
+        <fieldset data-filter="ownership">
+          <legend>Ownership</legend>
+          <div class="option">
+            <input id="all" type="radio" name="ownership" value="all" checked />
+            <label for="all">All</label>
+          </div>
+          <div class="option">
+            <input id="private" type="radio" name="ownership" value="private"/>
+            <label for="private">Private</label>
+          </div>
+          <div class="option">
+            <input id="private-public" type="radio" name="ownership" value="private-public"/>
+            <label for="private-public">Private/Public</label>
+          </div>
+          <div class="option">
+            <input id="unknown" type="radio" name="ownership" value="unknown"/>
+            <label for="unknown">Unknown</label>
+          </div>
+        </fieldset>
+      </form>
+      <form id="layers">
+        <fieldset data-filter="ownership">
+          <legend>Map Layer</legend>
+          <div class="option">
+            <input id="satellite" type="radio" name="layer" value="satellite" checked />
+            <label for="satellite">Satellite</label>
+          </div>
+          <div class="option">
+            <input id="vector" type="radio" name="layer" value="vector"/>
+            <label for="vector">Vector</label>
+          </div>
+        </fieldset>
+      </form>
+      </div>
+    </aside> -->
+
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="assets/scripts.js" type="text/javascript"></script>
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
+</html>
